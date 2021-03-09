@@ -1,0 +1,62 @@
+steps
+- copy these provided input files to your project directory
+- use command prompt or terminal of your IDE to run your code
+- check the path of your project directory and set if it's different
+- run the commands given below and match your output.
+
+
+
+NPUZZLE====================================
+python npuzzle.py npuzzle_problem_input_1 ASTS
+Solution path ['D', 'D', 'R', 'D', 'L', 'L', 'L', 'U', 'R', 'U', 'U', 'L']
+Solution cost 12
+
+python npuzzle.py npuzzle_problem_input_1 GBFGS
+Solution path ['D', 'D', 'R', 'D', 'L', 'L', 'L', 'U', 'R', 'U', 'U', 'L']
+Solution cost 12
+
+python npuzzle.py npuzzle_problem_input_2 UCGS
+Solution path ['L', 'L', 'D', 'R', 'U', 'L', 'U']
+Solution cost 7
+
+python npuzzle.py npuzzle_problem_input_3 BFTS
+Solution path ['D', 'R', 'U', 'L']
+Solution cost 4
+
+python npuzzle.py npuzzle_problem_input_3 DFGS
+Solution path ['D', 'R', 'U', 'L']
+Solution cost 4
+
+
+MAP========================================
+python map.py map_problem_input_1 BFTS
+Solution path ['A', 'B', 'G']
+Solution cost 14
+
+python map.py map_problem_input_1 ASTS
+Solution path ['A', 'D', 'E', 'G']
+Solution cost 12
+
+python map.py map_problem_input_1 UCGS
+Solution path ['A', 'D', 'E', 'G']
+Solution cost 12
+
+python map.py map_problem_input_1 GBFTS
+Solution path ['A', 'B', 'G']
+Solution cost 14
+
+python map.py map_problem_input_2 DFGS
+Solution path ['B', 'D', 'G']
+Solution cost 20
+
+python map.py map_problem_input_2 ASGS
+Solution path ['A', 'B', 'D', 'C', 'G']
+Solution cost 18
+
+python map.py map_problem_input_2 UCTS
+Solution path ['A', 'B', 'D', 'C', 'G']
+Solution cost 18
+
+python map.py map_problem_input_2 GBFGS
+Solution path ['B', 'D', 'G']
+Solution cost 20
